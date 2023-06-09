@@ -10,6 +10,7 @@ html,
 body {
     scroll-behavior: smooth;
 }
+
 html {
     font-size: 62.5%;
     /* dùng để sd đơn vị rem */
@@ -186,10 +187,10 @@ a {
 }
 
 .clients .clients-logo {
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 70px;
 }
 
 .clients .clients-logo a {
@@ -203,6 +204,7 @@ a {
 .clients .clients-logo a:hover {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 } 
+
 /* Guides */
 .guides {
     margin-top: 40px;
@@ -268,8 +270,8 @@ a {
 }
 
 .guides-items .link {
-    display: inline-block;
     margin-top: 10px;
+    display: inline-block;
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 1.5;
@@ -277,7 +279,7 @@ a {
 }
 
 .guides-items .arrow {
-    margin-left: 6px;
+    margin-left: 8px;
 }
 
 .guide-cta {
@@ -388,6 +390,7 @@ a {
 .featured .items .icon:first-child {
     margin-left: 0px;
 }
+
 .featured .items .label {
     margin-left: 8px;
     font-weight: 500;
@@ -468,8 +471,8 @@ a {
 }
 
 .stats .stats-trend {
-    padding: 45px 23px 40.5px 21px;
     position: absolute;
+    padding: 45px 23px 40.5px 21px;
     width: 239px;
     height: 252px;
     background: #ffffff;
@@ -483,18 +486,18 @@ a {
     align-items: center;
 }
 
-.stats-trend .row img {
-    width: 25.11px;
-    height: 16.03px;
-    margin-left: 60px;
-}
-
 .stats-trend .row .value {
     font-weight: 700;
     font-size: 2.6rem;
     line-height: 1;
     letter-spacing: 0.01em;
     color: #000339;
+}
+
+.stats-trend .row img {
+    width: 25.11px;
+    height: 16.03px;
+    margin-left: 60px;
 }
 
 .stats-trend .desc {
@@ -513,15 +516,15 @@ a {
     height: 1.2px;
 }
 
+.stats .avatar-group {
+    display: flex;
+}
+
 .stats .avatar-block {
     display: flex;
     margin-top: 26px;
     gap: 16px 14px;
     flex-wrap: wrap;
-}
-
-.stats .avatar-group {
-    display: flex;
 }
 
 .stats .avatar-block .avatar {
@@ -569,12 +572,12 @@ a {
 }
 
 .subscription .body {
+    position: relative;
     display: flex;
     align-items: center;
     background: #063183;
     border-radius: 20px;
     height: 370px;
-    position: relative;
 }
 
 .subscription .info {
